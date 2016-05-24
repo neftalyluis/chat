@@ -1,5 +1,6 @@
-package mx.lambda;
+package mx.lambda.chat;
 
+import mx.lambda.chat.YetAnotherChatApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;

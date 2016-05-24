@@ -1,4 +1,4 @@
-package mx.lambda;
+package mx.lambda.chat;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

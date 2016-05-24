@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.lambda.controller;
+package mx.lambda.chat.domain;
 
 /**
  *
  * @author labimael
  */
-class Greeting {
+public class Greeting {
 
     private final long id;
     private final String content;
