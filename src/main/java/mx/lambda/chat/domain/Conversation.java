@@ -5,6 +5,7 @@
  */
 package mx.lambda.chat.domain;
 
+import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Lob;
@@ -25,7 +26,7 @@ public class Conversation extends ParentModel {
 
     @Lob
     @Column(nullable = false)
-    private String payload;
+    private List<String> payload;
 
     /**
      * @return the sender
@@ -58,14 +59,14 @@ public class Conversation extends ParentModel {
     /**
      * @return the payload
      */
-    public String getPayload() {
+    public List<String> getPayload() {
         return payload;
     }
 
     /**
      * @param payload the payload to set
      */
-    public void setPayload(String payload) {
+    public void setPayload(List<String> payload) {
         this.payload = payload;
     }
 
